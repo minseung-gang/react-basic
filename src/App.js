@@ -1,12 +1,10 @@
 import "./App.css";
-import Reducer from "./components/3.3 Hooks/Reducer";
-import State from "./components/3.3 Hooks/State";
+import WelcomeDialog from "./components/3.5 Composition/WelcomeDialog";
 
 function App() {
   return (
     <div className="App">
-      <State />
-      <Reducer />
+      <WelcomeDialog />
     </div>
   );
 }
