@@ -1,11 +1,12 @@
 import "./App.css";
-import Dialog from "./components/3.6 Composition2/Dialog";
-import ThankyouDialo from "./components/3.6 Composition2/ThankyouDialo";
+import Button from "./components/3.7 HOC/Button";
+import Input from "./components/3.7 HOC/Input";
 
 function App() {
   return (
     <div className="App">
-      <ThankyouDialo />
+      <Input />
+      <Button />
     </div>
   );
 }
