@@ -1,0 +1,8 @@
+.CommentItem {
+  border: 1px solid grey;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
