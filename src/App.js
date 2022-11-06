@@ -1,10 +1,11 @@
 import "./App.css";
-import Example from "./components/3.10 Context/Example";
+
+import Component from "./components/3.14 PropTypes/Component";
 
 function App() {
   return (
     <div className="App">
-      <Example />
+      <Component />
     </div>
   );
 }
